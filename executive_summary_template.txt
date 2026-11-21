@@ -1,0 +1,130 @@
+# VeriStaff Analytics — Executive Summary Template
+# ==================================================
+# One-page McKinsey-style findings brief.
+# Populate the bracketed fields from your Power BI KPI cards before delivery.
+# Deliver this as a PDF cover page accompanying the Power BI report.
+#
+# Recommended format: A4, single page, Times New Roman or Calibri,
+# printed header with client logo + VeriStaff logo side by side.
+# ──────────────────────────────────────────────────────────────────────────────
+
+
+VERISTAFF ANALYTICS
+ASSIGNMENT INTEGRITY AUDIT — EXECUTIVE BRIEF
+[CLIENT NAME] | [AUDIT PERIOD: e.g., Jan 2023 – Dec 2024]
+Prepared by: [YOUR NAME / FIRM] | Confidential
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SITUATION
+
+[CLIENT NAME] operates [N] client accounts across [N] active projects with
+[N] staff and [N] managers. Assignment decisions — who gets assigned to which
+task — are made at the manager level with limited visibility into verified skill
+readiness or historical performance patterns.
+
+This audit analysed [N] historical assignments over [PERIOD] using verified
+skill audit data, manager behaviour logs, and project outcome records.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+COMPLICATION
+
+We identified three systemic failure modes that, left unaddressed, will
+continue to erode client lifetime value:
+
+  1. SKILL MISMATCH AT SCALE
+     [XX]% of assignments placed employees below the verified skill
+     threshold required for their task. This is not occasional — it is
+     structural. Mismatched assignments are [X]× more likely to result
+     in a quality score below 4.0/10 and [X]× more likely to trigger
+     client churn.
+
+  2. OVERRIDE CULTURE MASKING RISK
+     [X] manager(s) override system-generated skill flags at a rate
+     exceeding 30%, consistently placing the same employee(s) on
+     high-stakes client-facing tasks despite documented skill deficits.
+     These assignments account for $[X] in directly attributable
+     revenue loss over the audit period.
+
+  3. FALSE MILESTONE REPORTING
+     [N] assignments were reported "On Track" at the 50% project
+     milestone but ended with quality scores below 4.0. Of these,
+     [XX]% resulted in client churn. This false reporting delays
+     corrective action by 4–6 weeks on average, eliminating the
+     intervention window.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+RESOLUTION — THREE ACTIONS TO CAPTURE $[X] IN RECOVERABLE VALUE
+
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │ ACTION 1 — Enforce Skill Gates on High-Stakes Assignments               │
+  │ OWNER: HR + Department Heads  |  TIMELINE: 30 days                     │
+  │ IMPACT: Est. [XX]% reduction in high-risk assignments                  │
+  │                                                                         │
+  │ Require secondary approval when verified skill score is >15 pts below  │
+  │ task threshold. Automate flag in HRMS/project system. No new tools      │
+  │ required — process change only. Estimated risk reduction: $[X].        │
+  └─────────────────────────────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │ ACTION 2 — Manager Override Review for [MGR NAME(S)]                   │
+  │ OWNER: CEO / COO  |  TIMELINE: 2 weeks                                 │
+  │ IMPACT: Direct favoritism cost recovery: $[X]                          │
+  │                                                                         │
+  │ Conduct structured review with the [N] managers identified in the      │
+  │ Manager Scorecard (override rate >30%). Present evidence-backed         │
+  │ data: override log, outcome trail, revenue attribution. Implement       │
+  │ override justification audit quarterly. Estimated recovery: $[X].      │
+  └─────────────────────────────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │ ACTION 3 — 72-Hour Escalation Protocol on "At Risk" Checkpoints        │
+  │ OWNER: Project Management  |  TIMELINE: 14 days                        │
+  │ IMPACT: Est. 40–60% reduction in churn from in-flight projects         │
+  │                                                                         │
+  │ Any "At Risk" or "Delayed" flag at the 50% milestone triggers a        │
+  │ mandatory escalation within 72 hours: reassign lead if skill gap       │
+  │ is confirmed, or initiate client expectation reset call. This          │
+  │ protocol alone could prevent $[X] in annual churn.                     │
+  └─────────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEY METRICS SUMMARY
+
+  Metric                                 Current        Post-Action Target
+  ─────────────────────────────────────────────────────────────────────────
+  Assignment Health Score                [XX]/100        >75/100
+  % High-Risk Assignments                [XX]%           <12%
+  Manager Override Rate (flagged mgrs)   [XX]%           <10%
+  Avg Quality Score                      [X.X]/10        >7.0/10
+  Client Churn Rate (mismatch cases)     [XX]%           <8%
+  Est. Annual Revenue at Risk            $[X]            $[X] (reduced)
+  Favoritism Direct Cost                 $[X]            $0 (eliminated)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MODEL PERFORMANCE NOTE
+
+The predictive failure model (Gradient Boosting) achieved AUC = [X.XX] on
+a time-held-out test set. The three strongest drivers of failure risk are:
+
+  1. Mid-project checkpoint status (At Risk / Delayed)
+  2. Manager override frequency (6-month rolling rate)
+  3. Employee verified skill gap below task threshold
+
+The model's predictions are stored against each open assignment. The Power BI
+dashboard (pages 1 and 3) surfaces the highest-probability failures for
+immediate intervention.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+APPENDIX: Full analysis available in the VeriStaff Power BI dashboard
+(4 pages + drill-through). Audit trail and override log on Page 4.
+Data export available on all visuals for legal/HR documentation.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Prepared by VeriStaff Analytics | Confidential — Not for external distribution

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.env
+.venv/
+venv/
+
+# Data (generated — not committed, run 01_generate_data.py to recreate)
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.db
+
+# Models (large binary files — regenerate with 03_model.py)
+models/*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Power BI (keep template spec, ignore local .pbix with embedded data)
+*.pbix
+
+# Excel outputs (template is committed, filled client files are not)
+docs/client_filled_*.xlsx
